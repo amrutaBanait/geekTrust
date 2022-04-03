@@ -1,0 +1,53 @@
+.container {
+    width: 100%;
+    text-align: center;
+  }
+  .container input {
+    width: 55%;
+    padding: 8px 10px;
+    border-radius: 20px;
+   outline:none;
+  }
+  .inputBox{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .table {
+    width: 65%;
+    margin: auto;
+
+  }
+  .table tr {
+    width: 80%;
+    border: 1px solid grey;
+  }
+  .table tr:hover {
+    background-color: lightgray;
+  }
+  .table tr th {
+    width: 28%;
+    background-color: lightseagreen;
+    border: 1px solid grey;
+  }
+  .pagination {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    gap: 2%;
+    text-decoration: none;
+    list-style: none;
+    margin: auto;
+    cursor: pointer;
+    
+  }
+  .paginationBttns {
+    width: 50px;
+    background-color: #42c2ff;
+    color: red;
+    border: 1px solid grey;
+  }
+  .btn {
+    display: flex;
+    gap: 0.3%;
+  }
+  
